@@ -249,8 +249,8 @@
                     <div class="swiper-slide dark" style="background-image: url({{ $slid->images}})">
                         <div class="container clearfix">
                             <div class="slider-caption" style="max-width: 450px">
-                                <h2 class="nott" data-animate="fadeInUp">{{ $slid->text1}}</h2>
-                                <p class="d-none d-sm-block" style="font-size: 17px;" data-animate="fadeInUp" data-delay="200">{{ $slid->text2}}</p>
+                                <h2 class="nott" data-animate="fadeInUp">{{ $slid->header}}</h2>
+                                <p class="d-none d-sm-block" style="font-size: 17px;" data-animate="fadeInUp" data-delay="200">{{ $slid->mini_text}}</p>
                                 <a href="tel:+7(996)7843542" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large ml-0 mt-4">ПОЗВОНИТЬ</a>
                             </div>
                         </div>

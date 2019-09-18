@@ -9,7 +9,11 @@ class Gallery extends Model
     //Все поля разрешено менять
     protected $guarded = [];
     //включает выключает метку времени в таблицах
-    public $timestamps = false;
+    public $timestamps = true;
+    //Атрибуты которые можно массово присваивать
+    protected $fillable = [
+        'file','mini'
+    ];
 
     public function scopesaveImages($query, $file, $mini)
     {

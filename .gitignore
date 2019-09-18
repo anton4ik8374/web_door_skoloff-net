@@ -1,9 +1,9 @@
 /node_modules
-/public/
+/public/archive
 /public/storage
 /storage/
 /vendor
-/config/
+/public/upload/foto_galery
 .env
 .phpunit.result.cache
 Homestead.json
@@ -11,3 +11,5 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .idea
+skoloff12092019.tar
+p441726_skoloff.sql

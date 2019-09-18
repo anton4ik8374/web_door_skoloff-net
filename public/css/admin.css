@@ -1,0 +1,61 @@
+.foto{
+    width: 284px;
+    height: 213px;
+    margin: 2px;
+}
+.foto-block{
+
+    position: relative;
+}
+.btn-delete{
+    position: absolute;
+    content: '×';
+    top: 14px;
+    left: 14px;
+    font-size: 2em;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: tomato;
+    cursor: pointer;
+    border-radius: 100%;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+.none{
+    display: none !important;
+}
+.result{
+    width: max-content;
+    background: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    color: cornflowerblue;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    opacity: 0;
+    transition: 1s ease;
+}
+#create {
+    position: relative;
+}
+.preloader-img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(/images/icon/preloader.gif) no-repeat;
+    background-position: center;
+    background-size: auto;
+    position: absolute;
+    top: 0%;
+    right: 0;
+}

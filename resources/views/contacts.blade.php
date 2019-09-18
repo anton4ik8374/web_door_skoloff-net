@@ -38,8 +38,8 @@
                     <div class="contacts-list border-skolof">
                         <i class="icon-time"></i>
                         <p class="block-job">
-                            <?php if(date('H')+3 < '22' && date('H') >= '09'):?>
-                            <span class="open-time">Открыто: Закрывается в 22:00</span>
+                            <?php if(intval(date('H')+3) < 22 && intval(date('H')+3) >= 9):?>
+                            <span class="open-time">Открыто: Закрывается в 22:00 </span>
                             <?php else:?>
                             <span class="closed-time <?= date('H');?>">Закрыто: Открывается в 09:00</span>
                             <?php endif;?>

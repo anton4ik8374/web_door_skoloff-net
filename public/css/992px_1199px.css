@@ -1,0 +1,112 @@
+@media all and (min-width: 992px) and ( max-width: 1199px) {
+    .menu__menu--mobile {
+        display: none;
+    }
+    
+    .articleSelection .right:hover {
+        transform-origin: bottom;
+    } 
+    .articleSelection .left:hover {
+        transform-origin: bottom;
+    }
+    .articleSelection img {
+        width: 400px;
+        height: 300px;
+    }
+    .articleSelection .left:hover {
+        transform: scale(1.1);
+    }
+    .articleSelection .center:hover {
+        transform: scale(1.1);
+    }
+    .articleSelection .right:hover {
+        transform: scale(1.1);
+    }
+    .menu__menu {
+        display: block;
+        width: 60%;
+        height: 56px;
+        font-family: "Montserrat-Light", sans-serif;
+    }
+    .menu__logo {
+        margin: 0 0 0 6.6%;
+    }
+    .menu__logo:hover {
+        transform: scale(1.2);
+        transform-origin: top;
+    }
+    .sectionmobilleft {
+        margin-top: 0;
+        float: none;
+        width: 100%;
+        position: absolute;
+        background-size: contain;
+    }
+    .sectionmobiright {
+        margin-top: 0;
+        float: right;
+        width: 53%;
+    }
+    .sectionmobiright__header {
+        margin-top: 0;
+        line-height: 2;
+    }
+    .icon {
+        width: 20%;
+        min-height: 250px;
+        margin-right: 1%;
+    }
+    .sectionmobil {
+        position: relative;
+    }
+    .collage {
+        height: auto;
+    }
+    .sectionfouricon {
+        display: flex;
+        flex-wrap: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionone__main { 
+        line-height: 1.4;
+    }
+    .sectionone {
+        width: 25%;
+        min-height: 400px;
+        margin: 0 2%;
+    }
+    .sectiontwo {
+        width: 25%;
+        min-height: 400px;
+    }
+    .sectionthree {
+        width: 22%;
+        min-height: 400px;
+        margin-right: 2%;
+    }
+    .sectionfour {
+        width: 19%;
+        min-height: 400px;
+        margin-right: 1%;
+    }
+    .articleSelection {
+        height: auto;
+    }
+    .myslaider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        margin-left: 0;
+    }
+    .asidetextheader {
+        margin: 3% 0 0 4%;
+    }
+    .asidetextfooter {
+        margin-left: 4%;
+    }
+    
+}
